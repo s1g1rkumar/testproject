@@ -34,6 +34,12 @@ var contact = document.getElementById('contact');
    third.style.visibility = "hidden";
    fourth.style.visibility = "hidden";
    contact.style.visibility = "hidden";
+   //first.style .color= "green";
+   scrollbtn1.style.color = "green";
+   scrollbtn2.style.color = "#ff8800";
+  scrollbtn3.style.color = "#ff8800";
+  scrollbtn4.style.color = "#ff8800";
+  scrollbtn5.style.color = "#ff8800";
  });
  scrollbtn2.addEventListener('click', function(){
 
@@ -42,6 +48,18 @@ var contact = document.getElementById('contact');
   third.style.visibility = "hidden";
   fourth.style.visibility = "hidden";
   contact.style.visibility = "hidden";
+  scrollbtn1.style.color = "#ff8800";
+  scrollbtn2.style.color = "green";
+  scrollbtn3.style.color = "#ff8800";
+  scrollbtn4.style.color = "#ff8800";
+  scrollbtn5.style.color = "#ff8800";
+  //scrollbtn2.style.transition = "5s";
+
+
+
+  
+
+
 });
 scrollbtn3.addEventListener('click', function(){
 
@@ -50,6 +68,12 @@ scrollbtn3.addEventListener('click', function(){
   third.style.visibility = "visible";
   fourth.style.visibility = "hidden";
   contact.style.visibility = "hidden";
+  scrollbtn2.style.color = "#ff8800";
+  scrollbtn1.style.color = "#ff8800";
+  scrollbtn3.style.color = "green";
+  scrollbtn4.style.color = "#ff8800";
+  scrollbtn5.style.color = "#ff8800";
+
 });
 scrollbtn4.addEventListener('click', function(){
 
@@ -58,6 +82,11 @@ scrollbtn4.addEventListener('click', function(){
   third.style.visibility = "hidden";
   fourth.style.visibility = "visible";
   contact.style.visibility = "hidden";
+  scrollbtn2.style.color = "#ff8800";
+  scrollbtn1.style.color = "#ff8800";
+  scrollbtn3.style.color = "#ff8800";
+  scrollbtn4.style.color = "green";
+  scrollbtn5.style.color = "#ff8800";
 });
 scrollbtn5.addEventListener('click', function(){
 
@@ -66,6 +95,11 @@ scrollbtn5.addEventListener('click', function(){
   third.style.visibility = "hidden";
   fourth.style.visibility = "hidden";
   contact.style.visibility = "visible";
+  scrollbtn2.style.color = "#ff8800";
+  scrollbtn1.style.color = "#ff8800";
+  scrollbtn3.style.color = "#ff8800";
+  scrollbtn4.style.color = "#ff8800";
+  scrollbtn5.style.color = "green";
 });
 
 // heading.addEventListener('click',fun(){
