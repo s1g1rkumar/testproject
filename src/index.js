@@ -40,6 +40,11 @@ var contact = document.getElementById('contact');
   scrollbtn3.style.color = "#ff8800";
   scrollbtn4.style.color = "#ff8800";
   scrollbtn5.style.color = "#ff8800";
+
+
+  //scroll btn size increge
+  
+
  });
  scrollbtn2.addEventListener('click', function(){
 
@@ -136,7 +141,7 @@ scrollbtn5.addEventListener('click', function(){
 
 var animateButton = function(e) {
   
-  //e.preventDefault;
+//e.preventDefault;
 //reset animation
 e.target.classList.remove('animate');
 
